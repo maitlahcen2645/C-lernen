@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 void bubbleSort(int arr[], int n) {
-    for (int i = 0; i < n-1; i++) {
-        for (int j = 0; j < n-i-1; j++) {
-            if (arr[j] > arr[j+1]) {
-                int temp = arr[j];
-                arr[j] = arr[j+1];
+    for (int i = 0; i < n-1; i++) { // Durchläuft das Array von links nach rechts
+        for (int j = 0; j < n-i-1; j++) { // Vergleicht benachbarte Elemente und tauscht sie gegebenenfalls
+            if (arr[j] > arr[j+1]) { // Wenn das aktuelle Element größer als das nächste Element ist
+                int temp = arr[j]; // Tausche die beiden Elemente
+                // Tausche die beiden Elemente, wenn das aktuelle Element größer als das nächste Element ist
+                arr[j] = arr[j+1];y
                 arr[j+1] = temp;
             }
         }
