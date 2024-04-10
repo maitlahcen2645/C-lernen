@@ -6,7 +6,7 @@ void bubbleSort(int arr[], int n) {
             if (arr[j] > arr[j+1]) { // Wenn das aktuelle Element größer als das nächste Element ist
                 int temp = arr[j]; // Tausche die beiden Elemente
                 // Tausche die beiden Elemente, wenn das aktuelle Element größer als das nächste Element ist
-                arr[j] = arr[j+1];y
+                arr[j] = arr[j+1];
                 arr[j+1] = temp;
             }
         }
