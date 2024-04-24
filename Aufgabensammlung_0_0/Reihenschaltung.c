@@ -1,13 +1,14 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     int r1 = 100;
     int r2 = 50;
     int r3 = 75;
     int u = 12;
     int rges = r1 + r2 + r3;
     float i = u / (float)rges;
-    printf("Der Gesamtwiderstand beträgt: %d Ohm\n", rges);
+    printf("Der Gesamtwiderstand betraegt: %d Ohm\n", rges);
     printf("Der Strom beträgt: %.6f A\n", i);
     float u1 = i * (float)r1;
     float u2 = i * (float)r2;
