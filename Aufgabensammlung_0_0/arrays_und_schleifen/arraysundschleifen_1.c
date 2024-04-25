@@ -7,15 +7,17 @@ int main()
 {
     srand(time(NULL));
     int i = 0;
-    float sum = 0;
-
-    printf("Maximalzahl: ");
-    //scanf("%d", &max);
-    printf("Minimalzahl: ");
-    //scanf("%d", &min);
-
+    int sum = 0;
     int max = 10.00;
     int min = 1.00;
+
+    printf("Maximalzahl: ");
+    scanf("%d", &max);
+    printf("Minimalzahl: ");
+    scanf("%d", &min);
+
+    //int max = 10.00;
+    //int min = 1.00;
 
 
     float zufallszahlen[10];
@@ -26,7 +28,7 @@ int main()
             sum += zufallszahlen[i];
         }
 
-    printf("%.6f", sum);    
+    printf("%d", sum);    
     return 0;
 
 }
