@@ -13,7 +13,7 @@ int main()
 
     printf("Maximalzahl: ");
     scanf("%d", &max);
-    printf("Minimalzahl: ");
+    printf("\nMinimalzahl: ");
     scanf("%d", &min);
 
     //int max = 10.00;

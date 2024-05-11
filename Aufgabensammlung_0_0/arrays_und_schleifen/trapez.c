@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Wurde erstellt am 24.04.2024 :)
+// Wurde erstellt am 24042024 :)
 
 void mach_leer(int a)
 {
@@ -25,7 +25,7 @@ int main()
     for (int i = 0; i < zeilen; i++)
     {
         mach_leer(zeilen - i - 1);
-        mach_stern(2 * i + 1);
+        mach_stern(2 * i + 3);
         printf("\n");
     }
     return 0;
